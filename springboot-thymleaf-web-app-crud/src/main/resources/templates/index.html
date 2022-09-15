@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Management System</title>
+</head>
+<body>
+<div align="Center">
+	<h1>Employee List</h1>
+		<table>
+			<thead>
+				<tr>
+				<th>Employee FirstName</th>
+				<th>Employee LastName</th>
+				<th>Employee Email</th>
+				</tr>
+			</thead>
+			<tbody>
+			//thmleaf code here...
+			<tr th:each="employee: ${listEmployess}"> 
+			<td th:text="${employee.firstName"> </td>
+						<td th:text="${employee.firstName"> </td>
+						<td th:text="${employee.lastName"> </td>
+						<td th:text="${employee.email"> </td>
+									
+			
+			
+			
+			</tr>
+			</tbody>
+</table>
+</div>
+</body>
+</html>
